@@ -13,21 +13,17 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace DependencyProps
+namespace INotifyPropertyChang
 {
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
     public partial class MainWindow : Window
     {
-        public int MyProperty
-        {
-            get { return (int)GetValue(dependencyProperty); }
-            set { SetValue(dependencyProperty, value); }
-        }
-
-        public static readonly DependencyProperty dependencyProperty = DependencyProperty.Register("my property ", typeof(int), typeof(MainWindow), new PropertyMetadata(0));
         public MainWindow()
         {
             InitializeComponent();
-
         }
+
     }
 }
