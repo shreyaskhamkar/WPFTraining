@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBinding", "DataBinding\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INotifyPropertyChanhged_Interface", "INotifyPropertyChanhged_Interface\INotifyPropertyChanhged_Interface.csproj", "{E740B638-1F09-4E26-9A16-F7C801984535}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListBox", "ListBox\ListBox.csproj", "{3A1F0430-ABCB-4ED3-A61C-4E770EEC5E65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E740B638-1F09-4E26-9A16-F7C801984535}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E740B638-1F09-4E26-9A16-F7C801984535}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E740B638-1F09-4E26-9A16-F7C801984535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A1F0430-ABCB-4ED3-A61C-4E770EEC5E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A1F0430-ABCB-4ED3-A61C-4E770EEC5E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A1F0430-ABCB-4ED3-A61C-4E770EEC5E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A1F0430-ABCB-4ED3-A61C-4E770EEC5E65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

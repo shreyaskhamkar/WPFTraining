@@ -7,10 +7,8 @@ using System.Threading.Tasks;
 
 namespace INotifyPropertyChanhged_Interface
 {
-
     public class Sum : INotifyPropertyChanged
     {
-
         private string num1;
         private string num2;
         private string result;
