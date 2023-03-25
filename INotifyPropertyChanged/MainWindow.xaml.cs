@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace DataBinding
+namespace INotifyPropertyChang
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,8 +23,7 @@ namespace DataBinding
         public MainWindow()
         {
             InitializeComponent();
-            MySlider.Value = 30;
-            MyText.Text = MySlider.Value.ToString();
         }
+
     }
 }

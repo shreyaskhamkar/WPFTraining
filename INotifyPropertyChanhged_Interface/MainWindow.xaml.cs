@@ -13,18 +13,23 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace DataBinding
+namespace INotifyPropertyChanhged_Interface
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        public Sum SumObj { get; set; }
         public MainWindow()
         {
             InitializeComponent();
-            MySlider.Value = 30;
-            MyText.Text = MySlider.Value.ToString();
+            SumObj = new Sum { Num1 = "1" , Num2 = "3"};    
+
+            this.DataContext = SumObj;
+
+            
         }
     }
 }

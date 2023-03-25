@@ -7,10 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <StackPanel>
-        <TextBox Width="100" Margin="50" Text="{Binding ElementName=MySlider, Path=Value, Mode=OneWay}"></TextBox>
+        <!-- Data Binding
+            OneWay 
+            Two Way
+            OneWatTwoSource
+            OneTime   done in constructor so only once during intialization
+        -->
+        <!-- TextBox is the target-->
+        <TextBox  Name="MyText" Width="100" Margin="50" Text="{Binding ElementName=MySlider, Path=Value, Mode=TwoWay , UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        <!-- Slider is binding source-->
         <Slider IsSnapToTickEnabled="True" Name="MySlider" Minimum="0" Maximum="100"></Slider>
     </StackPanel>
-        
-
-    
 </Window>
