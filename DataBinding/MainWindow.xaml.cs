@@ -23,6 +23,8 @@ namespace DataBinding
         public MainWindow()
         {
             InitializeComponent();
+            MySlider.Value = 30;
+            MyText.Text = MySlider.Value.ToString();
         }
     }
 }
