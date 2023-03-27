@@ -13,16 +13,24 @@
                   Checked="cbAllCheckedChanged" 
                   Unchecked="cbAllCheckedChanged">Add all</CheckBox>
         <StackPanel Margin="10">
-            <CheckBox Name="cbSalami" Checked="cbSingleChekedChnaged" Unchecked="cbSingleChekedChnaged">
+            <CheckBox Name="cbSalami"
+                      Checked="cbSingleChekedChnaged" 
+                      Unchecked="cbSingleChekedChnaged">
                 <TextBlock>
-                    Salami<Run Foreground="Red" FontWeight="Bold">Spicy</Run>
+                    Salami<Run 
+                            Foreground="Red" 
+                            FontWeight="Bold">Spicy
+                          </Run>
                 </TextBlock>
             </CheckBox>
-            <CheckBox Name="cbMushroom" Checked="cbSingleChekedChnaged" Unchecked="cbSingleChekedChnaged">Mushrooms</CheckBox>
-            <CheckBox Name="cbMozzarela" Checked="cbSingleChekedChnaged" Unchecked="cbSingleChekedChnaged">Mozzarela</CheckBox>
-           
-            
+            <CheckBox Name="cbMushroom" 
+                      Checked="cbSingleChekedChnaged" 
+                      Unchecked="cbSingleChekedChnaged">Mushrooms
+            </CheckBox>
+            <CheckBox Name="cbMozzarela"
+                      Checked="cbSingleChekedChnaged" 
+                      Unchecked="cbSingleChekedChnaged">Mozzarela
+            </CheckBox>
         </StackPanel>
-        
-        </StackPanel>
+    </StackPanel>
 </Window>
