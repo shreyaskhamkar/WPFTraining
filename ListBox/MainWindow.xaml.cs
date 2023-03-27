@@ -37,14 +37,11 @@ namespace ListBox
                     (lbMatches.SelectedItem as Match).Score1 + " " +
                     (lbMatches.SelectedItem as Match).Team2 + " " +
                     (lbMatches.SelectedItem as Match).Score2 + " " +
-                     (lbMatches.SelectedItem as Match).Score2 + " " 
-
+                     (lbMatches.SelectedItem as Match).Score2 + " "
             );
             }
-
         }
     }
-
     public class Match
     {
         public int Score1 { get; set; }
