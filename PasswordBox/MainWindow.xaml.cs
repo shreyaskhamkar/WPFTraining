@@ -13,30 +13,18 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace RadioButtons
+namespace PasswordBox
 {
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
-            rbMaybe.IsChecked = true;
         }
 
-
-        private void YesChecked(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Thank you!");
-        }
-
-
-        private void NoChecked(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("Please say yes");
-        }
-        private void MaybeChecked(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("Please say yes");
+            MessageBox.Show("Welcome " + userName.Text);
         }
     }
 }
