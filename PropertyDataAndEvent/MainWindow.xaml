@@ -21,7 +21,7 @@
                     </Style>
                 </TextBlock.Style>
             </TextBlock>
-            
+
         </Grid>
         <Grid>
             <TextBlock Text="Hello, Buddy!" HorizontalAlignment="Center" FontSize="24" VerticalAlignment="Center">
@@ -51,7 +51,6 @@
                 </TextBlock.Style>
             </TextBlock>
         </Grid>
-        <StackPanel>
             <CheckBox Name="cbHello" Content="Is someone there?"/>
             <TextBlock HorizontalAlignment="Center" FontSize="36">
                 <TextBlock.Style>
