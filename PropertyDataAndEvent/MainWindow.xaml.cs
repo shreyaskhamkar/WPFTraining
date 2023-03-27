@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 
 namespace PropertyDataAndEvent
 {
+
     public partial class MainWindow : Window
     {
         public MainWindow()
