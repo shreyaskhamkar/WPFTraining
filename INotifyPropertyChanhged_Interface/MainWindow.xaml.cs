@@ -15,9 +15,6 @@ using System.Windows.Shapes;
 
 namespace INotifyPropertyChanhged_Interface
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
 
@@ -28,8 +25,6 @@ namespace INotifyPropertyChanhged_Interface
             SumObj = new Sum { Num1 = "1" , Num2 = "3"};    
 
             this.DataContext = SumObj;
-
-            
         }
     }
 }
