@@ -10,7 +10,7 @@
         <!-- Data Binding
             OneWay 
             Two Way
-            OneWatTwoSource
+            OneWayTwoSource
             OneTime   done in constructor so only once during intialization
         -->
         <!-- TextBox is the target-->
